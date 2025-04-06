@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "$defs": {
+  "positiveNumber": {
+  "type": "number",
+  "minimum": 0
+  }
+  },
+  "properties": {
+  "value": {
+  "$ref": "#/$defs/positiveNumber",
+  "if": {
+  "type": "number",
+  "maximum": 10
+  },
+  "then": {
+  "type": "number",
+  "description": "Value <= 10"
+  }
+  }
+  }
+}
