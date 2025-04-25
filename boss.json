@@ -1,0 +1,9 @@
+{
+	"name": "JsonFlow4D",
+	"description": "A versatile and powerful library for JSON serialization, deserialization, and manipulation in Delphi. It offers navigation via pointers, the ability to edit and update JSON, and supports middleware for custom type handling and JSON schema validation.",
+	"version": "1.0.0",
+	"homepage": "https://github.com/moderndelphiworks",
+	"mainsrc": "./Source",
+	"projects": [],
+	"dependencies": {}
+}

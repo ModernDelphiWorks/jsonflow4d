@@ -1,26 +1,28 @@
 ﻿{
-                   Copyright (c) 2020, Isaque Pinheiro
-                          All rights reserved.
+                          Apache License
 
-                    GNU Lesser General Public License
-                      Versão 3, 29 de junho de 2007
+       Licensed under the Apache License, Version 2.0 (the "License");
+       you may not use this file except in compliance with the License.
+       You may obtain a copy of the License at
 
-       Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
-       A todos é permitido copiar e distribuir cópias deste documento de
-       licença, mas mudá-lo não é permitido.
+             http://www.apache.org/licenses/LICENSE-2.0
 
-       Esta versão da GNU Lesser General Public License incorpora
-       os termos e condições da versão 3 da GNU General Public License
-       Licença, complementado pelas permissões adicionais listadas no
-       arquivo LICENSE na pasta principal.
+       Unless required by applicable law or agreed to in writing, software
+       distributed under the License is distributed on an "AS IS" BASIS,
+       WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+       See the License for the specific language governing permissions and
+       limitations under the License.
 }
 
 {
-  @abstract(JSONBr Framework)
-  @created(23 Nov 2020)
+  @abstract(JsonFlow4D: Advanced JSON Handling Framework for Delphi)
+  @description(A versatile and powerful library for JSON serialization, deserialization, and manipulation in Delphi. It offers navigation via pointers, the ability to edit and update JSON, and supports middleware for custom type handling and JSON schema validation.)
+  @created(03 Abr 2025)
   @author(Isaque Pinheiro <isaquepsp@gmail.com>)
-  @author(Telegram : @IsaquePinheiro)
+  @Discord(https://discord.gg/T2zJC8zX)
 }
+
+{$include ./jsonflow4d.inc}
 
 unit JsonFlow.Utils;
 
