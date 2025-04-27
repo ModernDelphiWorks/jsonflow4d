@@ -105,7 +105,6 @@
         <DCCReference Include="..\Source\Core\JsonFlow.Composer.pas"/>
         <DCCReference Include="..\Source\Schema\JsonFlow.SchemaReader.pas"/>
         <DCCReference Include="..\Source\Middleware\JsonFlow.MiddlewareDatatime.pas"/>
-        <DCCReference Include="..\Source\Http\JsonFlow.SchemaRefIndy.pas"/>
         <DCCReference Include="..\Source\Schema\JsonFlow.SchemaNavigator.pas"/>
         <DCCReference Include="..\Source\Schema\JsonFlow.SchemaComposer.pas"/>
         <DCCReference Include="..\Source\Schema\JsonFlow.Schema.pas"/>
@@ -197,6 +196,7 @@
         <DCCReference Include="JsonFlow.TestsTraitsTypes.pas"/>
         <DCCReference Include="JsonFlow.TestsTraitsUniqueItems.pas"/>
         <DCCReference Include="JsonFlow.TestsValue.pas"/>
+        <DCCReference Include="..\Source\Schema\Http\JsonFlow.SchemaRefIndy.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
