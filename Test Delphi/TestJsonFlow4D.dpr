@@ -28,7 +28,6 @@ uses
   JsonFlow.Composer in '..\Source\Core\JsonFlow.Composer.pas',
   JsonFlow.SchemaReader in '..\Source\Schema\JsonFlow.SchemaReader.pas',
   JsonFlow.MiddlewareDatatime in '..\Source\Middleware\JsonFlow.MiddlewareDatatime.pas',
-  JsonFlow.SchemaRefIndy in '..\Source\Http\JsonFlow.SchemaRefIndy.pas',
   JsonFlow.SchemaNavigator in '..\Source\Schema\JsonFlow.SchemaNavigator.pas',
   JsonFlow.SchemaComposer in '..\Source\Schema\JsonFlow.SchemaComposer.pas',
   JsonFlow.Schema in '..\Source\Schema\JsonFlow.Schema.pas',
@@ -119,7 +118,8 @@ uses
   JsonFlow.TestsTraitsStrings in 'JsonFlow.TestsTraitsStrings.pas',
   JsonFlow.TestsTraitsTypes in 'JsonFlow.TestsTraitsTypes.pas',
   JsonFlow.TestsTraitsUniqueItems in 'JsonFlow.TestsTraitsUniqueItems.pas',
-  JsonFlow.TestsValue in 'JsonFlow.TestsValue.pas';
+  JsonFlow.TestsValue in 'JsonFlow.TestsValue.pas',
+  JsonFlow.SchemaRefIndy in '..\Source\Schema\Http\JsonFlow.SchemaRefIndy.pas';
 
 { keep comment here to protect the following conditional from being removed by the IDE when adding a unit }
 {$IFNDEF TESTINSIGHT}
