@@ -22,7 +22,7 @@
   @Discord(https://discord.gg/T2zJC8zX)
 }
 
-{$include ./jsonflow4d.inc}
+{$include ../jsonflow4d.inc}
 
 unit JsonFlow.Interfaces;
 

@@ -20,9 +20,9 @@ type
     procedure Setup;
     [TearDown]
     procedure TearDown;
-//    [Test]
+    [Test]
     procedure TestValidate_SimpleType;
-//    [Test]
+    [Test]
     procedure TestValidate_RequiredField;
 //    [Test]
     procedure TestValidate_LocalDefs;
@@ -36,7 +36,7 @@ type
     procedure TestValidate_ObjectWithArray;
 //    [Test]
     procedure TestValidate_ArrayWithObjects;
-    [Test]
+//    [Test]
     procedure TestValidate_AdditionalProperties;
   end;
 
